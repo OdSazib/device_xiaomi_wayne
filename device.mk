@@ -21,10 +21,6 @@ PRODUCT_SHIPPING_API_LEVEL := 27
 PRODUCT_SOONG_NAMESPACES += \
     $(DEVICE_PATH)
 
-# Watermark
-PRODUCT_COPY_FILES += \
-    $(DEVICE_PATH)/configs/media/MIUI_DualCamera_watermark.png:$(TARGET_COPY_OUT_VENDOR)/etc/MIUI_DualCamera_watermark.png
-
 # Wifi
 PRODUCT_PACKAGES += \
     WayneWifiOverlay
