@@ -7,6 +7,10 @@
 # Device Path
 DEVICE_PATH := device/xiaomi/wayne
 
+# Fstab
+PRODUCT_PACKAGES += \
+    fstab.qcom
+
 # Inherit from wayne-common
 $(call inherit-product, device/xiaomi/wayne-common/wayne-common.mk)
 
